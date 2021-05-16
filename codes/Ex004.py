@@ -1,7 +1,10 @@
-print('_________________________________________________')
-print('____________ Welcome to the Discover ____________')
-print('_________________________________________________')
-x = input('write something to discover the types of it:')
+i = '-' * 50
+j = 'Welcome to the Calculator'
+h = 'write something to discover the types of it:'
+print('{:50}'.format(i))
+print('{:-^50}'.format(j))
+print('{:50}'.format(i))
+x = input('{:^50}'.format(h))
 print('_________________________________________________')
 print('the primitive type of', x, 'is ', type(x))
 print(x, ' is equal to: ')
@@ -16,4 +19,4 @@ print('Number:         |', x.isnumeric())
 print('Printable:      |', x.isprintable())
 print('Space:          |', x.isspace())
 print('Title:          |', x.istitle())
-print('Upper:          |', x.isupper())
+print('Upper latter:   |', x.isupper())
