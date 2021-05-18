@@ -1,0 +1,5 @@
+print('Tem Santo ou não?')
+x = input('Dgite o nome de uma cidade: ')
+y = x.lower().split()
+print("--------------------------------")
+print('santos' in y[0])
